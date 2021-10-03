@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.karvis")
 public class ProductServiceApplication {
 
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 

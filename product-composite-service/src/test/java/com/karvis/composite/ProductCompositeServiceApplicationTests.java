@@ -17,14 +17,5 @@ class ProductCompositeServiceApplicationTests {
 	}
 
 	
-	@Autowired
-	private WebClient client;
-	
-	@MockBean
-	private ProductCompositeIntegration compositeIntg;
-	
-	@BeforeEach
-	public void setUp() {
-		
-	}
+
 }
