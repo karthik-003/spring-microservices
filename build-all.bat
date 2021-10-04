@@ -10,3 +10,4 @@ cd ../recommendation-service
 call mvnw clean install
 cd ../review-service
 call mvnw clean install
+cd ..
