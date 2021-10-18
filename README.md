@@ -11,3 +11,6 @@ Getting started:
 1. > build-all.bat
 2. > docker-compose build
 3. > docker-compose up -d
+
+Swagger UI:
+1. http://localhost:8080/swagger-ui/#/
