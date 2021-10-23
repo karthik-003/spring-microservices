@@ -1,15 +1,21 @@
 
 spring:
   profiles:
-    active: docker
+    active: local
 
 ---
 
 spring:
   profiles: local
+  datasource:
+    url: jdbc:mysql://localhost/review-db
 server:
   port: 7003
-
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
 ---
 
 spring:

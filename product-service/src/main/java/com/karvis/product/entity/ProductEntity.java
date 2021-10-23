@@ -19,6 +19,10 @@ public class ProductEntity {
     private String name;
     private int weight;
 
+    public ProductEntity() {
+
+    }
+
     public String getId() {
         return id;
     }
@@ -59,9 +63,21 @@ public class ProductEntity {
         this.weight = weight;
     }
 
+
     public ProductEntity(int productId, String name, int weight) {
         this.productId = productId;
         this.name = name;
         this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "ProductEntity{" +
+                "id='" + id + '\'' +
+                ", version=" + version +
+                ", productId=" + productId +
+                ", name='" + name + '\'' +
+                ", weight=" + weight +
+                '}';
     }
 }
